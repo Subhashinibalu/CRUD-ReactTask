@@ -84,7 +84,7 @@ const EditDetails = ({ id }) => {
         editdata
       )
       .then((result) => {
-        console.log(result.data);
+        
         result.data;
       })
       .catch((error) => console.log(error));

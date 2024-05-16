@@ -76,7 +76,7 @@ company: {
         e.preventDefault()
         await axios.post(`https://66432c6f3c01a059ea21d019.mockapi.io/api/personData`,addData)
         .then(result=>{
-            console.log(result.data)
+          
             result.data})
         .catch(error=>console.log(error))
         navigate("/persondetails");

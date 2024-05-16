@@ -67,11 +67,11 @@ const PersonDetails = ({ setId }) => {
                     </p>
                     <p className="small ">
                       {element.name} with <b>username {element.username}</b> is working
-                      in{" "}
+                      in the company named{" "}
                       <span className="company fw-bold ">
-                        {element.company.name} company
+                        {element.company.name} 
                       </span>
-                      , which has a catchphrase- {" "}
+                      , which has a catchphrase {" "}
                       <i className="workdetail">
                         {element.company.catchPhrase}{" "}
                       </i>
