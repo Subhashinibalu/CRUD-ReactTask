@@ -6,6 +6,7 @@ const Navbar = () => {
         <div>
               <nav className="navbar navbar-expand-md  mt-4">
   <div className="container-fluid ">
+    {/* Even on clicking the page title and icon on the navbar start the page will be navigated to home page */}
     <Link to='/' className='text-decoration-none'><i className="bi bi-person-circle ms-4 person"></i> <span className='title ms-3 fw-bolder fs-2 text-black ' >PERSON DETAILS</span></Link>
     
   <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
