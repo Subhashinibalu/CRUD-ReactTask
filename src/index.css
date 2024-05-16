@@ -1,0 +1,74 @@
+
+.navbar .navbar-nav .nav-item a{
+
+    text-decoration: none !important;
+    color: black !important;
+    margin: 10px !important;
+    font-weight: bold;
+    font-size: larger !important;
+    padding: 10px !important;
+    border: 2px solid transparent !important;
+}
+.homeimage{
+    height: 400px !important;
+    width: 600px !important;
+}
+
+.person{
+    font-size: 35px !important;
+    color: black !important;
+}
+hr{
+    margin-top: -0.01px !important;
+    
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #0DBA4B !important;
+    font-weight: bolder !important;
+    border-bottom: 5px solid #0DBA4B !important;
+    
+   
+}
+
+.card:hover {
+   
+    box-shadow: 4px 2px 2px 2px rgb(230, 223, 223)  !important;
+
+    
+}
+
+.cardend{
+    margin-top: -7px !important;
+  
+}
+.edit{
+    border: 1px solid  #0DBA4B !important;
+    color:  #0DBA4B !important;
+    background:none !important;
+}
+
+.delete{
+    background-color: #0DBA4B !important;
+    color: white !important;
+}
+
+.website,.contact,.company,.workdetail{
+    
+    color:  #0DBA4B !important;
+}
+label{
+    
+    font-size: large !important;
+}
+.editform{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.footer{
+    background-color:  #0b100d !important;
+    border: black 3px solid !important;
+    color: white !important;
+}
+.web{
+    text-decoration: none !important;
+    color: white !important;
+}
