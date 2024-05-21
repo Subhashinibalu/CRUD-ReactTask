@@ -74,7 +74,7 @@ company: {
 //once the form is submitted the new datas will be added to the api data using post operation
     const handleSubmit= async(e)=>{
         e.preventDefault()
-        await axios.post(`https://66432c6f3c01a059ea21d019.mockapi.io/api/personData`,addData)
+        await axios.post(`https://664cc7edede9a2b5565199e6.mockapi.io/api/personData`,addData)
         .then(result=>{
           
             result.data})

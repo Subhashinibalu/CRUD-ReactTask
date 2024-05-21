@@ -35,7 +35,7 @@ const EditDetails = ({ id }) => {
   //The data which need to be edited is  fetched  inside use effect hook using the id of the data
   const fetchData = async () => {
     await axios
-      .get(`https://66432c6f3c01a059ea21d019.mockapi.io/api/personData/${id}`)
+      .get(` https://664cc7edede9a2b5565199e6.mockapi.io/api/personData/${id}`)
       .then((result) => setEditData(result.data))
       .catch((error) => console.log(error));
   };
@@ -80,7 +80,7 @@ const EditDetails = ({ id }) => {
     e.preventDefault();
     await axios
       .put(
-        `https://66432c6f3c01a059ea21d019.mockapi.io/api/personData/${id}`,
+        `https://664cc7edede9a2b5565199e6.mockapi.io/api/personData/${id}`,
         editdata
       )
       .then((result) => {
